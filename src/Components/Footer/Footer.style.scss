@@ -1,0 +1,44 @@
+.Footer-Container {
+  margin: 2rem 0rem 3rem;
+  .Footer-Wrapper {
+    text-align: center;
+    .Subscribers {
+      color: #707070;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .Discount {
+      font-size: 2.2rem;
+    }
+    .Description {
+      color: #585454;
+    }
+
+    .Subscribe-Input {
+      margin-top: 3rem;
+
+      padding-bottom: 3rem;
+      input {
+        height: 50px;
+        border: 2px solid #ebebeb;
+        width: 400px;
+        padding-left: 16px;
+        color: #9d9d9d;
+      }
+      button {
+        height: 50px;
+        border: 2px solid #ebebeb;
+        border-left: 0px;
+        padding: 0rem 4rem;
+        color: #292929;
+      }
+    }
+
+    .Copy-Rights {
+      .Heart {
+        color: red;
+        padding: 0px 4px;
+      }
+    }
+  }
+}

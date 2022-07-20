@@ -1,0 +1,35 @@
+.Header-Container {
+  .Header-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 5%);
+
+    .Nav-Wrapper {
+      display: flex;
+      gap: 3rem;
+
+      .Active {
+        color: #ee3333;
+      }
+
+      & a:hover {
+        color: #ee3333;
+        text-transform: capitalize;
+        transition: 0.3s;
+      }
+    }
+
+    .Heading {
+      padding-right: 7rem;
+    }
+
+    .Icons-Wrapper {
+      display: flex;
+      gap: 2rem;
+      cursor: pointer;
+    }
+  }
+}

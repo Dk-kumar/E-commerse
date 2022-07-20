@@ -1,0 +1,33 @@
+.BannerBlock-Container {
+  padding-top: 4rem;
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid #ebebeb;
+  .BannerBlock {
+    display: flex;
+    justify-content: space-around;
+    .Container-Wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      cursor: pointer;
+      .Image {
+        width: 65px;
+      }
+      .Title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+      }
+      .Discription {
+        text-align: center;
+        font-size: 12px;
+        color: #929292;
+        letter-spacing: 0.025em;
+        line-height: 24px;
+      }
+    }
+  }
+}

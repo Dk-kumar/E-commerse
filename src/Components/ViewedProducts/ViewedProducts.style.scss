@@ -1,0 +1,41 @@
+.ViewedProducts-Continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin: 7rem 0rem 1rem;
+  .Heading-wrapper {
+    text-align: center;
+    .Title {
+      font-size: 30px;
+      font-weight: 500;
+      padding-bottom: 18px;
+    }
+    .Discription {
+      color: #929292;
+    }
+  }
+  .Menus {
+    display: flex;
+    gap: 2.5rem;
+    .Tab {
+      background: #f1f1f1 none repeat scroll 0 0;
+      border-radius: 4px;
+      color: #707070;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 1;
+      padding: 14px 30px;
+      text-transform: capitalize;
+
+      &:hover {
+        background: #292929 none repeat scroll 0 0;
+        color: #fff;
+        text-transform: capitalize;
+        transition: 0.5s;
+      }
+    }
+  }
+  
+}

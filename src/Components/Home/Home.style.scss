@@ -1,0 +1,19 @@
+.Home-Container {
+  .Top-Wrapper {
+    position: relative;
+    .Header {
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+    }
+
+    .Slider {
+      position: absolute;
+      inset: 0;
+    }
+  }
+  .Body-wrapper {
+    padding-top: 900px;
+  }
+}

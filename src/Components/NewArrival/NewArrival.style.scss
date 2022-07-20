@@ -1,0 +1,19 @@
+.NewArrival-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin: 7rem 0rem;
+    .Heading-wrapper {
+      text-align: center;
+      .Title {
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 18px;
+      }
+      .Discription {
+        color: #929292;
+      }
+    }
+}

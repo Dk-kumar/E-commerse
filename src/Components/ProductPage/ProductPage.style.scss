@@ -1,0 +1,82 @@
+.ProductPage-Continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem 0rem;
+    .Heading-wrapper {
+      text-align: center;
+      .Title {
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 18px;
+      }
+      .Discription {
+        color: #929292;
+      }
+    }
+    .Menus {
+      display: flex;
+      gap: 2.5rem;
+      .Tab {
+        background: #f1f1f1 none repeat scroll 0 0;
+        border-radius: 4px;
+        color: #707070;
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 1;
+        padding: 14px 30px;
+        text-transform: capitalize;
+  
+        &:hover {
+          background: #292929 none repeat scroll 0 0;
+          color: #fff;
+          text-transform: capitalize;
+          transition: 0.5s;
+        }
+      }
+    }
+    .Product-Container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      .Product-Wrapper {
+        width: 280px;
+        cursor: pointer;
+        .Product-Image {
+          img {
+            width: 100%;
+          }
+        }
+        .Top {
+          .Brand-Name {
+            color: #929292;
+            font-size: 14px;
+            &:hover {
+              color: #ee3333;
+              text-transform: capitalize;
+              transition: 0.3s;
+            }
+          }
+        }
+        .Product-Name {
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 500;
+          p {
+            padding-top: 6px;
+  
+            &:hover {
+              color: #ee3333;
+              font-weight: 500;
+              text-transform: capitalize;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+  
