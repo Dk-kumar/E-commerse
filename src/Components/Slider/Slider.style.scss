@@ -4,10 +4,19 @@
     align-items: center;
     background-size: cover;
     height: 100vh;
-    padding-left: 12rem;
+    padding-left: 22rem;
   }
 
-  .each-slide-effect span {
-    font-size: 20px;
+  .each-slide-effect {
+    span {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      p {
+        font-size: 2.2rem;
+        color: #292929;
+      }
+    }
   }
 }
