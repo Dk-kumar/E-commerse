@@ -1,11 +1,24 @@
+@import url(../../Styles/_media.scss);
+
 .BannerBlock-Container {
-  padding-top: 4rem;
-  width: 70%;
+  padding-top: 110vh;
+  width: 1240px;
   margin: auto;
   border-bottom: 1px solid #ebebeb;
+ 
+  @media (max-width: 767px) {
+    width: 100%;
+    padding-top: 40vh;
+    margin: unset;
+  }
   .BannerBlock {
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
     .Container-Wrapper {
       display: flex;
       flex-direction: column;
@@ -20,6 +33,9 @@
         font-size: 14px;
         font-weight: 600;
         line-height: 1;
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
       }
       .Discription {
         text-align: center;
@@ -27,6 +43,9 @@
         color: #929292;
         letter-spacing: 0.025em;
         line-height: 24px;
+        @media (max-width: 767px) {
+          font-size: 13px;
+        }
       }
     }
   }

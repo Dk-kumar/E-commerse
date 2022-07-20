@@ -5,6 +5,11 @@
     background-size: cover;
     height: 100vh;
     padding-left: 22rem;
+
+    @media (max-width: 767px) { 
+      height: 225px;
+      padding-left: 4rem;
+    }
   }
 
   .each-slide-effect {
@@ -13,9 +18,20 @@
       flex-direction: column;
       gap: 15px;
 
+      @media (max-width: 767px) { 
+        span {
+          display: none;
+        }
+      }
+
       p {
         font-size: 2.2rem;
         color: #292929;
+
+        @media (max-width: 767px) { 
+          font-size: unset;
+          font-weight: 500;
+        }
       }
     }
   }

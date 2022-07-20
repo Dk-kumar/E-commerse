@@ -5,20 +5,33 @@
   gap: 2rem;
   align-items: center;
   margin: 7rem 0rem 1rem;
+
+  @media (max-width: 767px) { }
+  margin-top: 5rem;
   .Heading-wrapper {
     text-align: center;
     .Title {
       font-size: 30px;
       font-weight: 500;
       padding-bottom: 18px;
+
+      @media (max-width: 767px) { 
+        font-size: 24px;
+      }
     }
     .Discription {
       color: #929292;
+      letter-spacing: 0.025em;
     }
   }
   .Menus {
     display: flex;
     gap: 2.5rem;
+    @media (max-width: 767px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem 2.5rem;
+    }
     .Tab {
       background: #f1f1f1 none repeat scroll 0 0;
       border-radius: 4px;
@@ -28,7 +41,7 @@
       line-height: 1;
       padding: 14px 30px;
       text-transform: capitalize;
-
+      text-align: center;
       &:hover {
         background: #292929 none repeat scroll 0 0;
         color: #fff;

@@ -5,6 +5,11 @@
     gap: 2rem;
     align-items: center;
     margin: 2rem 0rem;
+
+    @media (max-width: 767px) { 
+      margin: 0;
+    }
+
     .Heading-wrapper {
       text-align: center;
       .Title {
@@ -42,9 +47,17 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 1.5rem;
+
+      @media (max-width: 767px) { 
+        gap: .5rem;
+      }
       .Product-Wrapper {
         width: 280px;
         cursor: pointer;
+
+        @media (max-width: 767px) { 
+          width: 175px;
+        }
         .Product-Image {
           img {
             width: 100%;
@@ -65,6 +78,9 @@
           font-size: 14px;
           line-height: 24px;
           font-weight: 500;
+          @media (max-width: 767px) { 
+            line-height: 18px;
+          }
           p {
             padding-top: 6px;
   
