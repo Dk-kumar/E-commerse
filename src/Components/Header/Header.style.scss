@@ -3,7 +3,7 @@
     background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
     box-shadow: 0 0 10px 1px rgb(0 0 0 / 5%);
     transition: 0.5s;
-    padding: .5rem 2rem !important;
+    padding: 0.5rem 2rem !important;
   }
 
   .Header-Wrapper {
@@ -28,7 +28,15 @@
     }
 
     .Heading {
-      padding-right: 7rem;
+      padding-right: 8rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+
+      .Logo {
+        width: 30px;
+        border-radius: 14px;
+      }
     }
 
     .Icons-Wrapper {

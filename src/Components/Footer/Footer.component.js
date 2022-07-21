@@ -34,10 +34,10 @@ const Footer = (props) => {
   const FooterBottom = () => {
     return (
       <span className="Copy-Rights">
-        © 2021 Mimosa Mede with<span className="Heart">♥</span>by
-        <span className="Author-Name">HasThemes</span>
+        © 2021 Oscar Leo Made with<span className="Heart">♥</span>by
+        <span className="Author-Name">DK</span>
       </span>
-    );
+    ); 
   };
 
   const render = () => {

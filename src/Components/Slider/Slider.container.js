@@ -59,12 +59,47 @@ const SliderContainer = () => {
       ),
       src: "https://htmldemo.net/mimosa/mimosa/img/slider/6.jpg",
     },
+    {
+      id: 3,
+      text: (
+        <span>
+          <p>
+            Stylish
+            <br />
+            Male Clothes
+          </p>
+          <span>
+            Discover the collection as styled by fashion icon Caroline Issa in
+            our new season <br />
+            campaign.
+          </span>
+        </span>
+      ),
+      src: "https://htmldemo.net/mimosa/mimosa/img/slider/7.jpg",
+    },
+    {
+      id: 4,
+      text: (
+        <span>
+          <p>
+            Stylish
+            <br />
+            Female Clothes
+          </p>
+          <span>
+            Discover the collection as styled by fashion icon Caroline Issa in
+            our new season <br />
+            campaign.
+          </span>
+        </span>
+      ),
+      src: "https://htmldemo.net/mimosa/mimosa/img/slider/9.jpg",
+    }
   ];
 
   const containerStates = {
     sliderData: sliderData,
   };
-  
 
   return <Slider {...containerStates} />;
 };
