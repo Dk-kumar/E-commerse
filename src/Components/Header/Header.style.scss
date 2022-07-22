@@ -1,48 +1,93 @@
-.Header-Container {
-  .Nav-Bar-Bg {
-    background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
-    box-shadow: 0 0 10px 1px rgb(0 0 0 / 5%);
-    transition: 0.5s;
-    padding: 0.5rem 2rem !important;
+.Desktop-Wrapper {
+  .Header-Container {
+    .Nav-Bar-Bg {
+      background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+      box-shadow: 0 0 10px 1px rgb(0 0 0 / 5%);
+      transition: 0.5s;
+      padding: 0.5rem 2rem !important;
+    }
+
+    .Header-Wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 5rem;
+      transition: 0.5s;
+      .Nav-Wrapper {
+        display: flex;
+        gap: 3rem;
+
+        .Active {
+          color: #ee3333;
+        }
+
+        & a:hover {
+          color: #ee3333;
+          text-transform: capitalize;
+          transition: 0.3s;
+        }
+      }
+
+      .Heading {
+        padding-right: 8rem;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        .Logo {
+          width: 30px;
+          border-radius: 14px;
+        }
+      }
+
+      .Icons-Wrapper {
+        display: flex;
+        gap: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.Mobile-Wrapper {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .Desktop-Wrapper {
+    display: none;
   }
 
-  .Header-Wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 5rem;
-    transition: 0.5s;
-    .Nav-Wrapper {
-      display: flex;
-      gap: 3rem;
-
-      .Active {
-        color: #ee3333;
+  .Mobile-Wrapper {
+    display: block;
+    .MobileHeader-Container {
+      .Nav-Bar-Bg {
+        background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+        box-shadow: 0 0 10px 1px rgb(0 0 0 / 5%);
+        transition: 0.5s;
+        padding: 0.4rem 1rem !important;
       }
+      .Nav-Wrapper {
+        display: flex;
+        padding: 1.1rem 1.4rem;
+        transition: 0.4s;
+        justify-content: space-between;
+        .Heading {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding-left: 10px;
+          .Logo {
+            width: 28px;
+            border-radius: 14px;
+          }
+        }
 
-      & a:hover {
-        color: #ee3333;
-        text-transform: capitalize;
-        transition: 0.3s;
+        .Mob-Icons-Wrapper {
+          display: flex;
+          gap: 11px;
+        }
       }
-    }
-
-    .Heading {
-      padding-right: 8rem;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-
-      .Logo {
-        width: 30px;
-        border-radius: 14px;
-      }
-    }
-
-    .Icons-Wrapper {
-      display: flex;
-      gap: 2rem;
-      cursor: pointer;
     }
   }
 }

@@ -6,8 +6,10 @@
   align-items: center;
   margin: 7rem 0rem 1rem;
 
-  @media (max-width: 767px) { }
-  margin-top: 5rem;
+  @media (max-width: 767px) {
+    margin-top: 4rem;
+  }
+
   .Heading-wrapper {
     text-align: center;
     .Title {
@@ -15,7 +17,7 @@
       font-weight: 500;
       padding-bottom: 18px;
 
-      @media (max-width: 767px) { 
+      @media (max-width: 767px) {
         font-size: 24px;
       }
     }
@@ -50,5 +52,4 @@
       }
     }
   }
-  
 }

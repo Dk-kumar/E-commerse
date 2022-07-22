@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header.component";
+import MobileHeader from "./MobileHeader.component";
 
 const HeaderContainer = () => {
   const [offset, setOffset] = useState(0);
@@ -15,7 +16,16 @@ const HeaderContainer = () => {
     offset: offset,
   };
 
-  return <Header {...containerStates} />;
+  return (
+    <>
+      <div className="Desktop-Wrapper">
+        <Header {...containerStates} />;
+      </div>
+      <div className="Mobile-Wrapper">
+        <MobileHeader {...containerStates} />
+      </div>
+    </>
+  );
 };
 
 export default HeaderContainer;

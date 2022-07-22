@@ -5,6 +5,9 @@
     gap: 2rem;
     align-items: center;
     margin: 7rem 0rem;
+    @media (max-width: 767px) {
+      margin: 4rem 0rem;
+    }
     .Heading-wrapper {
       text-align: center;
       .Title {
