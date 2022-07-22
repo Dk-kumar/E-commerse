@@ -21,7 +21,7 @@ const Footer = (props) => {
     return (
       <>
         <div className="Subscribe-Input">
-          <input placeholder="Enter your email address here..." />
+          <input placeholder="Enter your email" />
           <button className="Subscribe-Btn" type="button">
             Subscribe
           </button>
