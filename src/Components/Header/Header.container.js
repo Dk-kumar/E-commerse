@@ -19,7 +19,7 @@ const HeaderContainer = () => {
   return (
     <>
       <div className="Desktop-Wrapper">
-        <Header {...containerStates} />;
+        <Header {...containerStates} />
       </div>
       <div className="Mobile-Wrapper">
         <MobileHeader {...containerStates} />
